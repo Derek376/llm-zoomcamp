@@ -32,7 +32,7 @@ class RAGBase:
     ):
         self.index = index
         self.llm_client = llm_client
-        self.instructions = instructions
+        self.instructions = INSTRUCTIONS
         self.course = course
         self.prompt_template = prompt_template
         self.model = model
